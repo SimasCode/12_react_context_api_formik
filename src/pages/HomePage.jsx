@@ -1,8 +1,16 @@
+import styled from 'styled-components';
+import Wrap from '../styled/Wrap.styled';
+
+const Title = styled.h1`
+  font-size: 35px;
+  font-weight: 500;
+`;
+
 export default function HomePage() {
   return (
-    <div>
-      <h1>HomePage</h1>
+    <Wrap>
+      <Title>HomePage</Title>
       <p>Welcome to our page</p>
-    </div>
+    </Wrap>
   );
 }
